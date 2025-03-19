@@ -1,17 +1,17 @@
 total_items = 5 # Initialize a variable with the quiz item count.
 user_score = 0 # Initialize a variable for score count
 # user_answer variable will be use to store user's answer
-# TODO(Arguelles): Add your question, and implement answer checking logic
 
+print("(Norlan Arguelles) What is the capital of the Philippines?")
+print("a) Manila            c) Davao")
+print("b) Cebu              d) Baguio")
 
+user_answer = input("Enter your answer: ").upper()
 
-
-
-
-
-
-
-
+if user_answer == "A":
+    print("Correct!")
+else:
+    print(f"{user_answer} is incorrect. The correct answer is A.")
 
 
 print("\n(Karl Christian Caya) What is my favorite color?")
