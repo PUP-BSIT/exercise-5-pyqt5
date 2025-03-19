@@ -3,7 +3,7 @@ user_score = 0 # Initialize a variable for score count
 # user_answer variable will be use to store user's answer
 
 print("(Norlan Arguelles) What is the capital of the Philippines?")
-print("a) Manila                    sc) Davao")
+print("a) Manila                    c) Davao")
 print("b) Cebu                      d) Baguio")
 
 user_answer = input("Enter your answer: ").upper()
