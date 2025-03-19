@@ -13,17 +13,18 @@ user_score = 0 # Initialize a variable for score count
 
 
 
-# TODO(Caya): Add your question, and implement answer checking logic
 
+print("\n(Karl Christian Caya) What is my favorite color?")
+print("a) Red               c) Yellow")
+print("b) Orange            d) Green")
 
-
-
-
-
-
-
-
-
+user_answer = input("Enter your answer: ").upper()
+ 
+if user_answer == 'D':
+    print(f"{user_answer} is correct.")
+    user_score +=1
+else:
+    print(f"{user_answer} is incorrect. The correct answer is D.")
 
 # TODO(Condino): Add your question, and implement answer checking logic
 
