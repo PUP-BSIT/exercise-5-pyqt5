@@ -27,8 +27,8 @@ else:
     print(f"{user_answer} is incorrect. The correct answer is D.")
 
 print("\n(Ciara Marie Condino) What is my favorite game? ")
-print("a) Valorant			c) Minecraft")
-print("b) Roblox			d) Mobile Legends")
+print("a) Valorant          c) Minecraft")
+print("b) Roblox            d) Mobile Legends")
 
 user_answer = input("Enter your answer: ").upper()
 
@@ -39,8 +39,8 @@ else:
     print(f"{user_answer} is incorrect. The correct answer is C.")
 
 print("\n(Aron Stephen Cordova) What is the chemical symbol for Gold?")
-print("a) Au           c) Ag")
-print("b) Fe           d) Pb")
+print("a) Au                c) Ag")
+print("b) Fe                d) Pb")
 
 user_answer = input("Enter your answer: ").upper()
 
@@ -57,7 +57,7 @@ print("b)February 20, 2005          d)February 21, 2005")
 user_answer = input("Enter your answer: ").upper()
 
 if user_answer == "D":
-    print(f"{user_answer} is correct!")
+    print(f"{user_answer} is correct.")
     user_score += 1
 else:
     print(f"{user_answer} is incorrect!. The correct answer is D.")
